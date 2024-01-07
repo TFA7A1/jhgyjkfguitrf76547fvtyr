@@ -1,59 +1,32 @@
-# SPECTRUM
+# Discord Username Claimer
+This is a Python script that claims your desired username on Discord.
 
-[![Build](https://img.shields.io/badge/Supported_OS-Linux-red.svg)]()
-[![Build](https://img.shields.io/badge/Supported_OS-Termux-red.svg)]()
-[![Contributors](https://img.shields.io/badge/Contributors-None-red.svg)]()
-[![Version](https://img.shields.io/badge/version-1.0-red.svg?maxAge=259200)]()
+## Requirements
+* Python 3.x
+* `requests` module
+* `colorama` module
 
-![hidden-onion](https://i.imgur.com/reolb1r.jpg)
-
-<hr>
-
-# TOOL FOR BRUTE FORCE ON TIKTOK
-
-<hr>
-
-*It is a tool based on Python, that makes brute force a TikTok user to obtain your password and access your account. It is compatible with Termux and Linux distributions such as Kali Linux, Ubuntu... etc. .*
-
-*As the sole owner and founder of this script, I am not responsible for any misuse of the tool, illegal activities, or improper use of the tool. This tool was created for educational purposes and is not intended to promote any malicious, illegal, or improper activity. The person who uses the tool is solely responsible for the legal consequences it may have, as I am not responsible.*
-
-<hr>
-
-#  INSTALLATION
-
-<hr>
-
-Installing this script is completely easy. Find the distribution you use below and follow the steps below.
-
-## LINUX DISTRIBUTIONS AND TERMUX
-
-```bash
-git clone https://github.com/sk-k1ng/spectrum
-cd spectrum
+You can install the `requests` and `colorama` modules by running the following command:
+```
 pip install -r requirements.txt
 ```
 
-<hr>
+## Usage
+1. Clone the repository and navigate to the directory:
 
-#  USAGE  
+   ```
+   git clone https://github.com/your-username/discord-username-claimer.git
+   cd discord-username-claimer
+   ```
+ 
+2. Open ```claimer.py``` and enter your desired ```username``` and your ```auth token```.
+3. Leave it on until you have successfully claimed your username.
 
-<hr>
+## Status Codes
+1. ```200 - Success```
+2. ```429 - Too Many Attempts (Rate Limited)```
+3. ```401 - Unauthorized (You are not yet eligible)```
+4. ```400 - Username Taken```
 
-Enter the user and the wordlist, If you don't have wordlist you can use **wordlist.txt**, since it comes by default and has quite a few passwords in English. It is worth mentioning that if you want to use any wordlist own, you must add it to the directory where this repository is located.
-
-After that, it will automatically try the quick login with the words of the wordlist. To run the script make sure you have installed everything, use this combination. 
-
-```bash
-python3 spectrum.py
-```
-
-<hr>
-
-# NOTE 
-
-<hr>
-
-I would appreciate it if you support this script with a star and follow me, it's free and it only takes a few seconds.
-
-Contact me:
-t.me/usr_rooted
+## Disclaimer
+This script is for educational purposes only. Use it at your own risk. The author is not responsible for any consequences that may result from using this script.
